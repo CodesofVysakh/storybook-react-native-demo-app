@@ -35,9 +35,9 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "storybook-generate": "sb-rn-get-stories -js",
-    "storybook": "cross-env STORYBOOK_ENABLED='true' expo start",
-    "storybook:ios": "cross-env STORYBOOK_ENABLED='true' expo start --ios",
-    "storybook:android": "cross-env STORYBOOK_ENABLED='true' expo start --android"
+    "storybook": "cross-env expo start",
+    "storybook:ios": "cross-env expo start --ios",
+    "storybook:android": "cross-env expo start --android"
   },
   "version": "1.0.0",
   "private": true,
