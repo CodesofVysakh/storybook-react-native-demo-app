@@ -4,5 +4,7 @@ module.exports = {
   addons: [
     "@storybook/addon-ondevice-controls",
     "@storybook/addon-ondevice-actions",
+    // "@storybook/addon-actions",  // Use the classic actions addon
+
   ],
 };

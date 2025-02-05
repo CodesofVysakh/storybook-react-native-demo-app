@@ -2,10 +2,10 @@ export default ({ config }) => ({
     ...config,
     name: "Storybook Tutorial Template",
     slug: "storybook-tutorial-template",
-    // extra: {
-    //     storybookEnabled: process.env.STORYBOOK_ENABLED,
-    // },
-	extra: {
-		storybookEnabled: process.env.EXPO_STORYBOOK,
-	},
+    extra: {
+        storybookEnabled: "true"
+    },
+	// extra: {
+	// 	storybookEnabled: process.env.EXPO_STORYBOOK,
+	// },
 });
